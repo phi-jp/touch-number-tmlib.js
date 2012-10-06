@@ -70,6 +70,7 @@ var MainScene = tm.createClass({
         for (var i=0; i<PIECE_NUM; ++i) {
             var p = Piece(i+1);
             
+            // タッチ処理
             p.ontouchstart = function() {
                 if (this.number == self.currentIndex) {
                     self.currentIndex += 1;
