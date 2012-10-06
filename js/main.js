@@ -30,7 +30,7 @@ tm.main(function() {
 
 
 /*
- * 
+ * タイトルシーン
  */
 var TitleScene = tm.createClass({
     superClass: tm.app.Scene,
@@ -50,7 +50,7 @@ var TitleScene = tm.createClass({
 
 
 /*
- * 
+ * メインシーン
  */
 var MainScene = tm.createClass({
     superClass: tm.app.Scene,
@@ -105,7 +105,7 @@ var MainScene = tm.createClass({
 
 
 /*
- * 
+ * ピース
  */
 var Piece = tm.createClass({
     superClass: tm.app.Shape,
