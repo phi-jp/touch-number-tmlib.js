@@ -20,6 +20,7 @@ tm.main(function() {
     app.fitWindow();
     //app.enableStats();
     
+    // タイトルシーン生成
     //var titleScene = MainScene();
     var titleScene = TitleScene();
     app.replaceScene(titleScene);
